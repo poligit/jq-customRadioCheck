@@ -28,8 +28,6 @@
             // hide by shifting left
             $this.css({ position: 'absolute', left: '-9999px' });
 
-
-
             // Events old style for jQuery 1.3.2
             $(this).change(function () {
                 if ($this.is(':radio')) {
@@ -45,7 +43,6 @@
             $(this).blur(function () {
                 $span.removeClass('focus');
             });
-
 
             // Events with on() ab jQuery 1.7
             /*
