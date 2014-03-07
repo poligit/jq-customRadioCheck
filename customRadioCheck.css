@@ -27,3 +27,7 @@
 .custom-radio.checked { background-position: -40px -20px; }
 .custom-check.checked.focus { background-position: -60px 0; }
 .custom-radio.checked.focus { background-position: -60px -20px; }
+.custom-check.disabled { background-position: -80px 0; cursor: not-allowed;}
+.custom-radio.disabled { background-position: -80px -20px; cursor: not-allowed;}
+.custom-check.disabled-checked { background-position: -100px 0; cursor: not-allowed;}
+.custom-radio.disabled-checked { background-position: -100px -20px; cursor: not-allowed;}
